@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap" rel="stylesheet">   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- external CSS link -->
 	<link rel="stylesheet" href="css/normalize.css">
@@ -21,28 +18,28 @@
         <div class="calculator">
             <div class="calculator-screen">0</div>
             <div class="digits">
-                <button class="delete">C</button>
-                <button class="negative">+/-</button>
-                <button class="percentage">%</button>
-                <button class="divide">÷</button>
-                <button class="times">&times;</button>
-                <button class="minus">-</button>
-                <button class="plus">+</button>
-                <button class="one">1</button>
-                <button class="two">2</button>
-                <button class="three">3</button>
-                <button class="four">4</button>
-                <button class="five">5</button>
-                <button class="six">6</button>
-                <button class="seven">7</button>
-                <button class="eight">8</button>
-                <button class="nine">9</button>
-                <button class="zero">0</button>
-                <button class="decimal">.</button>
-                <button class="equal">=</button>
+                <button class="operator-grey delete">C</button>
+                <button class="operator-grey negative">+/-</button>
+                <button class="operator-grey percentage">%</button>
+                <button class="operator divide" id="operatorDivide">÷</button>
+                <button class="operator times" id="operatorTimes">&times;</button>
+                <button class="operator minus" id="operatorMinus">-</button>
+                <button class="operator plus plusClicked" id="operatorPlus">+</button>
+                <button class="number one">1</button>
+                <button class="number two">2</button>
+                <button class="number three">3</button>
+                <button class="number four">4</button>
+                <button class="number five">5</button>
+                <button class="number six">6</button>
+                <button class="number seven">7</button>
+                <button class="number eight">8</button>
+                <button class="number nine">9</button>
+                <button class="number zero">0</button>
+                <button class="number decimal">.</button>
+                <button class="operator equal">=</button>
             </div>
         </div>
     </div>
-    <script src="main.js"></script>
+    <script src="main.js" type="text"></script>
 </body>
 </html>
