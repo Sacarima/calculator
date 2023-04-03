@@ -1,5 +1,9 @@
-document.querySelector('#operatorPlus').addEventListener('click', changeColor)
+// select parent keys
+const keyButton = document.querySelector('.digits')
+keyButton.addEventListener('click', getDigits)
 
-function changeColor() {
-    style.backgo
+//target the keys and dsplay in
+function getDigits() {
+    // using closest to make sure the program runs only if button are
+    //clicked
 }
