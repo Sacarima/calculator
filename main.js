@@ -30,3 +30,5 @@ function getDigits() {
     if it's an operator it's treated differently, the same if it's a number should be treared differently
     */
 }
+
+// using bloCK CODE CAN BE USEFULL NWHEY THEY TRY TO RACH AT THOP
